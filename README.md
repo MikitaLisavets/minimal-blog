@@ -9,7 +9,7 @@
 
 ### Posts
 
-Create posts in folder *posts/text* in *.md format
+Create posts in folder **posts / text** in *.md format
 
 ### Post template
 ```
@@ -18,3 +18,13 @@ Create posts in folder *posts/text* in *.md format
 # Title
 
 ```
+
+### Date format
+
+xxxx-xx-xx (xxxx-xx)
+xxxx:xx:xx (xxxx:xx)
+xxxx xx xx (xxxx xx)
+
+xx-xx-xxxx
+xx:xx:xxxx
+xx xx xxxx
