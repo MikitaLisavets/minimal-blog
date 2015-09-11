@@ -10,7 +10,7 @@
             controller: 'MainController',
             templateUrl: function ($stateParams){
               if( $stateParams.postPath.length ) {
-                return '/posts/html/' + $stateParams.postPath + '.html';
+                return 'posts/html/' + $stateParams.postPath + '.html';
               }
             }
           });

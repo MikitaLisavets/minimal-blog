@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "angular": "^1.4.5",
-    "angular-ui-router": "^0.2.15",
     "gulp": "^3.9.0",
     "gulp-cheerio": "^0.6.2",
     "gulp-clean": "^0.3.1",
