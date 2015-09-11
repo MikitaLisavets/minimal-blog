@@ -2,6 +2,8 @@
 
 http://feelenergycb.github.io/blog
 
+![](http://dl1.joxi.net/drive/0002/1393/185713/150911/e3a35560ba.jpg)
+
 ## Usage
 
 1. git clone https://github.com/FeelEnergyCB/blogEngine.git
