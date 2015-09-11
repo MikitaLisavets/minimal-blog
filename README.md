@@ -1,3 +1,7 @@
+## Demo
+
+http://feelenergycb.github.io/blog
+
 ## Usage
 
 1. git clone https://github.com/FeelEnergyCB/blogEngine.git
