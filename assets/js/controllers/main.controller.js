@@ -51,7 +51,7 @@
           }
 
           lastPost = vm.postsList[lastYear][lastMonth]
-          $state.go('post', {postPath: lastPost[0].path})
+          $state.go('post', {postPath: lastPost[lastPost.length - 1].path})
         }
     }
 })();
