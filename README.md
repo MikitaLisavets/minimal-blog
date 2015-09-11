@@ -6,3 +6,15 @@
 4. npm run config
 5. npm run preview (for local preview)
 6. npm run publish (for pushing on github)
+
+### Posts
+
+Create posts in folder *posts/text* in *.md format
+
+### Post template
+```
+<time>xxxx-xx-xx</time>
+
+# Title
+
+```
