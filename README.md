@@ -2,9 +2,11 @@
 
 http://feelenergycb.github.io/blog
 
+![](http://joxi.ru/brR8EOPh9JjM21.jpg)
+
 ## Usage
 
-1. git clone https://github.com/FeelEnergyCB/blogEngine.git
+1. git clone https://github.com/FeelEnergyCB/MinimalistBlog.git
 2. npm install
 3. open 'gulpfile.js' and change variable 'remote' on your git repository
 4. npm run config (once)
