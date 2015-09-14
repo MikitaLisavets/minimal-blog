@@ -2,7 +2,7 @@
 
 http://feelenergycb.github.io/blog
 
-![](http://joxi.ru/brR8EOPh9JjM21.jpg)
+![](http://dl2.joxi.net/drive/0002/1393/185713/150914/959d3e3d9f.jpg)
 
 ## Usage
 
