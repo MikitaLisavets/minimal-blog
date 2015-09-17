@@ -3,9 +3,9 @@
     angular
         .module('blog')
         .controller('MainController', MainController);
-    MainController.$inject = ['postsService', '$state'];
+    MainController.$inject = ['postsService', '$state', '$rootScope'];
     /* @ngInject */
-    function MainController(postsService, $state) {
+    function MainController(postsService, $state, $rootScope) {
         var vm = this;
         vm.loaded = false;
         vm.currentUrl = $state.params.postPath;
@@ -16,6 +16,9 @@
         function activate() {
           postsService.getPosts().then(function (response) {
             parseDate(response.data);
+          });
+          $rootScope.$on('$stateChangeSuccess', function() {
+             document.body.scrollTop = document.documentElement.scrollTop = 0;
           });
         }
 

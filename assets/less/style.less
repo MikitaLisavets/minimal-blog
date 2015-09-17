@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "PTMono";
+    src: url("../fonts/ptmono/PTMonoRegular.eot");
+    src: url("../fonts/ptmono/PTMonoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ptmono/PTMonoRegular.woff") format("woff"),
+    url("../fonts/ptmono/PTMonoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 html {
   font-family: 'PT Mono', Georgia, serif;
   font-size: 90%;
@@ -281,6 +291,10 @@ a {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+  }
+  iframe {
+    max-width: 100%;
+    display: inline-block;
   }
 
   a {
