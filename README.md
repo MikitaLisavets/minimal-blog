@@ -1,10 +1,4 @@
-## Demo
-
-http://feelenergycb.github.io/blog
-
-![](http://dl2.joxi.net/drive/0002/1393/185713/150914/959d3e3d9f.jpg)
-
-## Usage
+## Usage:
 
 1. git clone https://github.com/FeelEnergyCB/MinimalistBlog.git
 2. npm install
@@ -13,11 +7,11 @@ http://feelenergycb.github.io/blog
 5. npm run preview (for local preview)
 6. npm run publish (for pushing on github)
 
-### Posts
+### Posts:
 
-Create posts in folder **posts / text** in *.md format
+Create posts in folder **posts / text** in \*.md format
 
-### Post template
+### Post template:
 ```
 <time>xxxx-xx-xx</time>
 
@@ -25,7 +19,7 @@ Create posts in folder **posts / text** in *.md format
 
 ```
 
-### Date formats
+### Date formats:
 
 xxxx-xx-xx (xxxx-xx)  
 xxxx:xx:xx (xxxx:xx)  
@@ -34,3 +28,10 @@ xxxx xx xx (xxxx xx)
 xx-xx-xxxx  
 xx:xx:xxxx  
 xx xx xxxx  
+
+
+## Demo:
+
+http://feelenergycb.github.io/blog
+
+![](http://dl2.joxi.net/drive/0002/1393/185713/150914/959d3e3d9f.jpg)
