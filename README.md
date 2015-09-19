@@ -21,9 +21,9 @@ Create posts in folder **posts / text** in \*.md format
 
 ### Date formats:
 
-xxxx-xx-xx (xxxx-xx)  
-xxxx:xx:xx (xxxx:xx)  
-xxxx xx xx (xxxx xx)  
+xxxx-xx-xx
+xxxx:xx:xx
+xxxx xx xx
 
 xx-xx-xxxx  
 xx:xx:xxxx  
