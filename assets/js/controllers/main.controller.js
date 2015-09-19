@@ -41,7 +41,8 @@
         function showFirstPost() {
           var lastYear,
               lastMonth,
-              lastPost;
+              lastPosts,
+              post;
 
           for (var item in vm.postsList) {
             if (!lastYear) lastYear = item;
@@ -53,8 +54,16 @@
             if ( +item > +lastMonth ) lastMonth = item;
           }
 
-          lastPost = vm.postsList[lastYear][lastMonth]
-          $state.go('post', {postPath: lastPost[lastPost.length - 1].path})
+          lastPosts = vm.postsList[lastYear][lastMonth]
+
+          lastPosts.forEach(function(elem) {
+            if (!post) post = elem;
+            if (elem.day >= post.day) {
+              post = elem
+            }
+          })
+
+          $state.go('post', {postPath: post.path})
         }
     }
 })();

@@ -14,7 +14,7 @@
     </header> <!-- end header -->
     <div class="page">
       <aside class="page__aside">
-  
+
         <div class="posts">
           <ul class="posts__years posts__years_reverse" reverse>
             <li class="posts__years-item" ng-repeat="(key, value) in main.postsList" ng-if="main.months = main.postsList[key]">
@@ -23,7 +23,7 @@
                 <li class="posts__months-item" ng-repeat="(key, value) in main.months" ng-if="main.posts = main.months[key]">
                   <span class="posts__months-text" list>{{key | month}}</span>
                   <ul class="posts__list posts__list_reverse" reverse>
-                    <li class="posts__list-item" ng-repeat="post in main.posts">
+                    <li class="posts__list-item" ng-repeat="post in main.posts | orderBy:'day'">
                       <a class="posts__link" ui-sref-active="posts__link_active" href="#/{{post.path}}" ui-sref="post({ postPath: post.path })" >{{post.header}}</a>
                     </li>
                   </ul>
