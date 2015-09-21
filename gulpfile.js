@@ -1,4 +1,4 @@
-var remote = 'https://github.com/FeelEnergyCB/MinimalistBlog.git',
+var remote = 'https://github.com/MikitaLisavets/MinimalistBlog.git',
     gulp = require('gulp'),
     less = require('gulp-less'),
     watch = require('gulp-watch'),

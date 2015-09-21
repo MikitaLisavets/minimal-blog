@@ -1,6 +1,6 @@
 ## Usage:
 
-1. git clone https://github.com/FeelEnergyCB/MinimalistBlog.git
+1. git clone https://github.com/MikitaLisavets/MinimalistBlog.git
 2. npm install
 3. open 'gulpfile.js' and change variable 'remote' on your git repository
 4. npm run config (once)
@@ -32,6 +32,6 @@ xx xx xxxx
 
 ## Demo:
 
-http://feelenergycb.github.io/blog
+http://blog.mikitalisavets.me
 
 ![](http://dl2.joxi.net/drive/0002/1393/185713/150914/959d3e3d9f.jpg)
