@@ -14,4 +14,140 @@ html {
 
 .header {
   background: #f5f5f5;
+  &__text {
+    font-family: 'helvetica';
+  }
 }
+
+.page {
+  &__aside {
+    background: #fafafa;
+  } 
+}
+
+.posts {
+  &__link {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+    &_active {
+      text-decoration: none;
+      color: #00a;
+    }
+  }
+}
+.article {
+  padding: 20px 40px;
+  position: relative;
+  @media (min-width: 940px) {
+    padding: 20px 100px;
+  }
+  time {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #aaa;
+    font-size: .85rem;
+    line-height: 1;
+    font-style: italic;
+  }
+
+  p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  ul,
+  ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  ul li,
+  ol li {
+    line-height: 1.5rem;
+  }
+  ul ul,
+  ol ul,
+  ul ol,
+  ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  blockquote {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    text-align: center;
+    word-break: break-word;
+  }
+  h1 {
+    font-size: 4.242rem;
+    line-height: 4.5rem;
+    margin-top: 3rem;
+  }
+  h2 {
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+  }
+  h3 {
+    font-size: 2.126rem;
+  }
+  h4 {
+    font-size: 1.414rem;
+  }
+  h5 {
+    font-size: 0.707rem;
+  }
+  h6 {
+    font-size: 0.4713333333333333rem;
+  }
+  table {
+    margin-top: 1.5rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  table td,
+  table th {
+    padding: 1.25rem;
+    line-height: 2rem;
+  }
+  code {
+    vertical-align: bottom;
+  }
+  img {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  iframe {
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+} // end article
