@@ -20,7 +20,7 @@ var remote = 'https://github.com/MikitaLisavets/MinimalistBlog.git',
   }
 
   gulp.task('less', function () {
-    gulp.src('assets/less/**/*.less')
+    gulp.src('assets/less/style.less')
       .pipe(less())
       .pipe(minifyCSS())
       .on('error', function (err) {
