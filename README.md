@@ -1,6 +1,6 @@
 ## Usage:
 
-1. git clone https://github.com/MikitaLisavets/MinimalistBlog.git
+1. git clone https://github.com/MikitaLisavets/minimal-blog.git
 2. npm install
 3. open 'gulpfile.js' and change variable 'remote' on your git repository
 4. npm run config (once)
